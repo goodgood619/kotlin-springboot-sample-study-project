@@ -52,5 +52,5 @@ class CalculatorTest {
         throw IllegalStateException("예상되는 예외가 발생하지 않음")
     }
 
-    
+
 }
