@@ -32,6 +32,7 @@ class BookService(
         }
 
         val user = userRepository.findByName(request.userName)?: fail()
+        user.loanBook(book)
     }
 
     @Transactional
